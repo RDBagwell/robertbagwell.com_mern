@@ -1,7 +1,14 @@
 import { createSlice } from "@reduxjs/toolkit";
 import axios from 'axios';
 
-const apiUrl = `https://robertbagwell.onrender.com/v1/page`;
+let apiUrl = `https://robertbagwell.onrender.com/v1/page`;
+if (!import.meta.env.NODE_ENV || import.meta.env.NODE_ENV === 'development') {
+    apiUrl = `http://localhost/v1/page`;
+} 
+
+
+
+
 
 const initialState = {
     data: []
