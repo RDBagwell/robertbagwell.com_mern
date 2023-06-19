@@ -2,9 +2,9 @@ import { createSlice } from "@reduxjs/toolkit";
 import axios from 'axios';
 
 let apiUrl = `https://robertbagwell.onrender.com/v1/page`;
-if (!import.meta.env.NODE_ENV) {
-    apiUrl = `http://localhost/v1/page`;
-} 
+// if (!import.meta.env.NODE_ENV) {
+//     apiUrl = `http://localhost/v1/page`;
+// } 
 
 
 
