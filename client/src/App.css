@@ -1,0 +1,12 @@
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 175px;
+}
+#root {
+  max-width: 100vw;
+}
+.main{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+ }
